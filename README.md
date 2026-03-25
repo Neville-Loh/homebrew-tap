@@ -6,5 +6,4 @@ Homebrew formulae for [Neville-Loh](https://github.com/Neville-Loh) projects.
 
 ```bash
 brew tap Neville-Loh/tap
-brew install gh-review
 ```
