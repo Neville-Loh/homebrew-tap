@@ -1,21 +1,25 @@
 class GhReview < Formula
   desc "Terminal UI for reviewing GitHub pull requests"
   homepage "https://github.com/Neville-Loh/gh-review"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.1/gh-review-aarch64-apple-darwin.tar.xz"
+      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.2/gh-review-aarch64-apple-darwin.tar.xz"
+      sha256 "93225f5936a751289c10fa18c0c95c571e6c2b22a660cd9de9cdfa71106a2bc4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.1/gh-review-x86_64-apple-darwin.tar.xz"
+      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.2/gh-review-x86_64-apple-darwin.tar.xz"
+      sha256 "6551e871389a0bd8d2879e0bbb38fee4f69c102c41c2d06306dc3283108c6936"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.1/gh-review-aarch64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.2/gh-review-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "e9c2024d5919cde9920b15408c544cec0723495f61025ba168cd8d8d264dde61"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.1/gh-review-x86_64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.2/gh-review-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2366bd5542721cf3b2aa2cc7a2f4bf76da3cd88d922121358394eb8f10eae78a"
     end
   end
   license "MIT"
