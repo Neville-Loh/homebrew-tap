@@ -1,25 +1,25 @@
 class GhReview < Formula
   desc "Terminal UI for reviewing GitHub pull requests"
   homepage "https://github.com/Neville-Loh/gh-review"
-  version "0.1.3"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.3/gh-review-aarch64-apple-darwin.tar.xz"
-      sha256 "eb420aabbd7476c3189c88c4858935973387217071dfa628e29b8fa6c321a711"
+      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.2.1/gh-review-aarch64-apple-darwin.tar.xz"
+      sha256 "107aa31f8867c3619159c178ef21e68795e8125e0ad07e00fddf15bac0ca3760"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.3/gh-review-x86_64-apple-darwin.tar.xz"
-      sha256 "a9dd5bb94d2346654e7282c6a6faa9bab5cef24576d6fdffc32c439efa7e4d15"
+      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.2.1/gh-review-x86_64-apple-darwin.tar.xz"
+      sha256 "c184b00b397b4b7565aa7fedee9d1870f2f29f6af0a67c8f9fb188dc5e90f5b4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.3/gh-review-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "430e4570e3f6a98773fa1f1a19b9a5f0514351822da1d49839adb3a387c28836"
+      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.2.1/gh-review-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1b4712e9c2174b5cc2757358c6e9b7a1c95850997e077d8136bc10c619591555"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.1.3/gh-review-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "382438de1fe7dabfcb2209da93edc69cbd77d13d0f5e6f9288f56d1d104280a7"
+      url "https://github.com/Neville-Loh/gh-review/releases/download/v0.2.1/gh-review-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9b56b457eaabe23e9ecf56d7c90ad410030ebd29bc29bfb9f3cf643872838e71"
     end
   end
   license "MIT"
